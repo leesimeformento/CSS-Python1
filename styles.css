@@ -24,6 +24,11 @@
     display: inline-block;
     color:white;
     padding-left:25px;
+    margin:4px;
+}
+
+.textsize h4 {
+    width:70px;
 }
 
 .normal a{
@@ -135,6 +140,12 @@ margin:2%;
 }
 
 /* Bottom Container */
+
+.centered-ul span {
+    display: inline-block;
+    width:300px;
+}
+
 
 .bottom-container {
     display: flex;
