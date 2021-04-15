@@ -1,0 +1,191 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLES */
+
+.bigwrapper {
+    background: #245076;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.logo img {
+    width:60%;
+}
+
+.textsize {
+    display: inline-block;
+    color:white;
+    padding-left:25px;
+}
+
+.normal a{
+    text-decoration: none;
+    color: rgb(243, 196, 109);
+}
+
+
+.form {
+    width:15%;
+}
+
+input {
+    padding: 7px;
+    width:200px;
+}
+
+#gobutton {
+    padding:2%;
+    color:white;
+    background: #245076;
+}
+
+.button1 {
+    background: grey;
+    width:100%;
+    padding:20px;
+    border-radius: 10px;
+    background: rgb(77, 74, 74);
+}
+
+/* MENU Starts here */
+
+.menu {
+    width:90%;
+    margin:0 auto;
+    text-align: center;
+    padding:1%;
+    background: rgb(58, 130, 197);
+    border-radius: 10px;
+}
+
+.menu a {
+    color:white;
+    text-align: center;
+    padding:6%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Middle-wrapper Starts Here */
+
+
+.middle-wrapper{
+    display: flex;
+    width:80%;
+    margin:0 auto;
+    height:50vh;
+}
+
+.left-sidebar {
+width:15%;
+padding:1%;
+}
+
+.left-sidebar a{
+    display: flex;
+    justify-content: center;
+    padding:5%;
+    color:white;
+    text-align: center;
+}
+
+.rightsidebar {
+    width:70%;
+    height:15vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+}
+.psidebar{
+    font-size: 1.2rem;
+}
+
+.psidebar p {
+    width:75%;
+    margin:0 auto;
+    color:white;
+}
+
+
+.h3div {
+padding:2%;
+margin:2%;
+}
+
+.h3div h3, h4 {
+    padding:1%;
+}
+
+.yellowtext {
+    color: rgb(243, 196, 109);
+    font-style: italic;
+}
+
+.zen {
+    color:white;
+}
+
+/* Bottom Container */
+
+.bottom-container {
+    display: flex;
+    background: white;
+    padding:20px;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.bottom-container ul{
+    list-style-position: inside;
+}
+
+.left-bottom {
+width:30%;
+padding-right:10px;
+border-top:5px solid rgb(58, 130, 197);;
+text-align: center;
+}
+
+.left-bottom a{
+    color:  rgb(58, 130, 197);
+}
+
+.bottom-right {
+    width:35%;
+    padding:10px;
+    border-top:5px solid rgb(58, 130, 197);
+    text-align: center;
+}
+
+.bottom-right a {
+    color:rgb(58, 130, 197);
+}
+
+/* Footer */
+.footer {
+    height:12vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+}
+.footer a{
+    color: rgb(125, 163, 206);
+    margin:20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+h6{
+    text-align: center;
+    color:rgb(125, 163, 206);
+}
